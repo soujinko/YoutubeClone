@@ -1,5 +1,7 @@
 import React from 'react';
-
-const App: React.FC  = () => <h1>hello wordl</h1>
+import Greetings from './components/Greetings';
+const name = "sujin"
+const mark = "gogo"
+const App: React.FC  = () => <Greetings name={name} mark={mark}/>
 
 export default App;

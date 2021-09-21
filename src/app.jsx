@@ -5,6 +5,7 @@ import styles from './app.module.css';
 import VideoDetail from './components/video_detail/video_detail';
 
 const App = ({youtube}) => {
+  console.log('data 확인', youtube)
   const [videos, setVideos] = useState([]);
   const [selectedVideo, setselectedVideo] = useState(null);
 
